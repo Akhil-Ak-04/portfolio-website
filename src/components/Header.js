@@ -27,7 +27,7 @@ export default function Header() {
           <li><Link to="/skills">Skills</Link></li>
           <li><Link to="/Certifications">Certifications</Link></li>
           <li><Link to="/contact">Contact</Link></li>
-          <li><a href="/resume.docx" target="_blank" rel="noopener noreferrer">Resume</a></li>
+          <li><a href="/resume.docx" target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
 

@@ -49,7 +49,7 @@ export default function Home() {
 
         {/* Scroll Indicator with fading opacity */}
         <div
-          className="absolute bottom-6 text-white text-sm animate-bounce transition-opacity duration-500"
+          className="absolute bottom-8 text-white text-sm animate-bounce transition-opacity duration-500"
           style={{ opacity }}
         >
           ↓ Scroll down
