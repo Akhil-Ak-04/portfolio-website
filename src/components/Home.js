@@ -30,7 +30,7 @@ export default function Home() {
 
       <section className="relative flex flex-col items-center justify-center text-center px-4 min-h-[calc(100vh-80px)] bg-gradient-to-r from-indigo-500 via-purple-600 to-blue-500 text-white">
         <img
-          src="/your-photo.jpg"
+          src="/profile-img.jpg"
           alt="Akhil Pekala"
           className="w-32 h-32 rounded-full border-4 border-white shadow-lg mb-6"
         />
