@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
+import { SpeedInsights } from "@vercel/speed-insights/react"  
+import { Analytics } from "@vercel/analytics/react"
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,6 +16,8 @@ import Certifications from './components/Certifications';
 function App() {
   return (
     <HelmetProvider>
+    <SpeedInsights />
+    <Analytics/>
     <Router>
       <div className="min-h-screen flex flex-col font-sans">
         <Header />
