@@ -13,14 +13,8 @@ export default function Projects() {
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {/* Project 1 */}
         <div className="bg-white shadow-lg rounded p-6">
-          <h3 className="text-xl font-semibold mb-2">Project 1</h3>
-          <p className="text-gray-600">Project description here.</p>
-        </div>
-
-        {/* Project 2 */}
-        <div className="bg-white shadow-lg rounded p-6">
-          <h3 className="text-xl font-semibold mb-2">Project 2</h3>
-          <p className="text-gray-600">Another project description.</p>
+          <h3 className="text-xl font-semibold mb-2">Weather App</h3>
+          <p className="text-gray-600">A responsive Weather App built with React and Tailwind CSS, fetching real-time data from the OpenWeatherMap API.</p>
         </div>
       </div>
     </section>
