@@ -25,9 +25,9 @@ export default function Header() {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/Certifications">Certifications</Link></li>
+          {/* <li><Link to="/Certifications">Certifications</Link></li> */}
           <li><Link to="/contact">Contact</Link></li>
-          <li><a href="/resume.docx" target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href="/Akhil_Pekala_Resume.docx" target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
 
@@ -38,7 +38,7 @@ export default function Header() {
           <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
           <li><Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
           <li><Link to="/skills" onClick={() => setIsOpen(false)}>Skills</Link></li>
-          <li><Link to="/Certifications" onClick={() => setIsOpen(false)}>Certifications</Link></li>
+          {/* <li><Link to="/Certifications" onClick={() => setIsOpen(false)}>Certifications</Link></li> */}
           <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
           <li><a href="/resume.docx" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Resume</a></li>
         </ul>

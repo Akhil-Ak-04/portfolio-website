@@ -14,7 +14,7 @@ export default function Footer() {
     </p>
 
     <div className="flex space-x-6">
-      <a href="/resume.docx" className="text-blue-400 hover:underline text-sm" target="_blank" rel="noopener noreferrer">
+      <a href="/Akhil_Pekala_Resume.docx" className="text-blue-400 hover:underline text-sm" target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
       <a href="https://github.com/Akhil-Ak-04" target="_blank" rel="noreferrer">
